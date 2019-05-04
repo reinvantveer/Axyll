@@ -21,4 +21,15 @@
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 		<nature>org.tizen.web.project.builder.WebNature</nature>
 	</natures>
+	<filteredResources>
+		<filter>
+			<id>1556972807556</id>
+			<name></name>
+			<type>30</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-node_modules</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
 </projectDescription>
