@@ -1,5 +1,6 @@
 /* eslint no-console: "off" */
 const permitRequester = require('./requestPermit');
+const displayHeartRate = require('./displayHeartRate');
 
 function main() {
   return permitRequester('http://tizen.org/privilege/healthinfo')
@@ -10,4 +11,3 @@ function main() {
 }
 
 window.onload = main();
-

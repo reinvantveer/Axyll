@@ -13,7 +13,7 @@ function displayHeartRate() {
   const textbox = document.querySelector('.contents');
   const box = document.querySelector('#textbox');
 
-  console.log('text box selected');
+  console.log('Text box selected');
 
   function onsuccessCB(hrmInfo) {
     box.innerHTML = `Heart rate: ${hrmInfo.heartRate}`;
