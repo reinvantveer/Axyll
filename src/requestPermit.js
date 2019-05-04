@@ -8,4 +8,4 @@ function requestPermit(uri) {
   });
 }
 
-exports = requestPermit;
+module.exports = requestPermit;

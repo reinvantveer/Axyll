@@ -40,4 +40,4 @@ function displayHeartRate() {
   });
 }
 
-exports = displayHeartRate;
+module.exports = displayHeartRate;
