@@ -16,7 +16,7 @@ It's perfectly fine to do your tizen web apps using NPM and WebPack. Just make s
 		</filter>
 	</filteredResources>
 ```
+section in your tizen studio .project unless you want the eclipse IDE all frozen over due to 1000+ files in node_modules.
+
 or if you're building using the tizen CLI (which I still intend to do, but haven't figured out yet)
 `tizen --exclude node_modules/* ...`
-
-section in your tizen studio .project unless you want the eclipse IDE all frozen over due to 1000+ files in node_modules.
