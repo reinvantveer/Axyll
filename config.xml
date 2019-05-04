@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/StateChecker" version="1.0.1" viewmodes="maximized">
+    <tizen:application id="SDGBD42IEP.StateChecker" package="SDGBD42IEP" required_version="4.0"/>
+    <author href="https://reinvantveer.github.io" email="reinvantveer@gmail.com">Rein van 't Veer</author>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="http://tizen.org/feature/network.internet"/>
+    <feature name="http://tizen.org/feature/sensor.heart_rate_monitor"/>
+    <icon src="icon.png"/>
+    <license href="https://opensource.org/licenses/MIT">MIT</license>
+    <name>StateChecker</name>
+    <tizen:privilege name="http://developer.samsung.com/privilege/healthinfo"/>
+    <tizen:privilege name="http://developer.samsung.com/privilege/medicalinfo"/>
+    <tizen:privilege name="http://tizen.org/privilege/healthinfo"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="disable" encryption="disable" hwkey-event="enable"/>
+</widget>
